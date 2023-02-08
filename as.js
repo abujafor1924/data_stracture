@@ -23,11 +23,11 @@ function evenOdd(str) {
   const number = str.length;
 
   if (number % 2 === 0) {
-    console.log("Even");
+    return "Even";
   } else if (number % 2 === 1) {
-    console.log("Odd");
+    return "Odd";
   } else if (typeof str !== "string") {
-    console.log("please retune a string");
+    return "please retune a string";
   }
   return number;
 }
@@ -42,11 +42,11 @@ function isLGSeven(num) {
   let subtraction = num - 7;
   let multification = subtraction * 2;
   if (subtraction < 7) {
-    console.log(subtraction);
+    return subtraction;
   } else if (subtraction >= 7) {
-    console.log(multification);
+    return multification;
   } else if (typeof num === "string") {
-    console.log("please retune a number");
+    return "please retune a number";
   }
   return subtraction;
 }
@@ -83,12 +83,12 @@ function gemsToDiamond(num1, num2, num3) {
   const total = friendOne + friendTow + friendThree;
   const upTo = 1000 * 2;
   if (total < upTo) {
-    console.log(total);
+    return total;
   } else if (total > upTo) {
     const subTotal = total - upTo;
-    console.log(subTotal);
+    return subTotal;
   } else if (typeof num1 || num2 || num3 === "string") {
-    console.log("please retune a Number");
+    return "please retune a Number";
   }
   return total;
 }
