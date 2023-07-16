@@ -2,7 +2,6 @@
 // splice(cuting and  middel setting)
 // concat(for arry duplicat)
 //new set()(remove Duplicat letter in a array)
-
 //Array.from (separetion letter)
 
 function reversWords(sentence) {
